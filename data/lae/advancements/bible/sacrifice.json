@@ -1,0 +1,24 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:mutton"},
+		"title": {"text": "Sacrifice to the Lord"},
+		"description": {"text": "Kill a sheep, not your son"}
+	},
+	"parent": "lae:bible/babel",
+	"criteria":
+	{
+		"mutton":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": [{"item": "minecraft:mutton"}]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

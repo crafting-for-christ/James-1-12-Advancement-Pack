@@ -1,0 +1,61 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:leather_boots"},
+		"title": {"text": "Sent Out"},
+		"description": {"text": "Go to all the nations"}
+	},
+	"parent": "lae:bible/supper",
+	"criteria":
+	{
+		"plains":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "Village",
+				"biome": "plains"
+			}
+		}
+		,"desert":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "Village",
+				"biome": "desert"
+			}
+		}
+		,"savanna":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "Village",
+				"biome": "savanna"
+			}
+		}
+		,"taiga":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "Village",
+				"biome": "taiga"
+			}
+		}
+		,"snowy_tundra":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "Village",
+				"biome": "snowy_tundra"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

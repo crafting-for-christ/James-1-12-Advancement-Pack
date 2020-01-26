@@ -1,0 +1,12 @@
+{
+	"parent": "lae:bible/root",
+	"criteria":
+	{
+		"throw":
+			{"trigger": "minecraft:inventory_changed"} 
+	},
+	"rewards":
+	{
+		"function": "lae:bible/kindness_trigger_throw"
+	}
+}

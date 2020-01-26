@@ -1,0 +1,30 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:firework_rocket"},
+		"title": {"text": "Joy"},
+		"description": {"text": "Show your joy"}
+	},
+	"parent": "lae:bible/love",
+	"criteria":
+	{
+		"firework":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items": 
+				[
+					{
+						"item": "minecraft:firework_rocket",
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

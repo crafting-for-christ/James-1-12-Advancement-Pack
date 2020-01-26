@@ -1,0 +1,18 @@
+{
+	"parent": "lae:bible/root",
+	"criteria":
+	{
+		"temple":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"feature": "desert_pyramid"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/control_trigger_pyramid"
+	}
+}

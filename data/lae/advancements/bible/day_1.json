@@ -1,0 +1,99 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:torch"},
+		"title": {"text": "The first day"},
+		"description": {"text": "Let there be light!"}
+	},
+	"parent": "lae:bible/formless",
+	"criteria":
+	{
+		"beacon":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:beacon"}
+		},
+		"campfire":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:campfire"}
+		},
+		"conduit":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:conduit"}
+		},
+		"end_rod":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:end_rod"}
+		},
+		"glowstone":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:glowstone"}
+		},
+		"jack_o_lantern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:jack_o_lantern"}
+		},
+		"lantern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lantern"}
+		},
+		"magma_block":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:magma_block"}
+		},
+		"redstone_lamp":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:redstone_lamp"}
+		},
+		"redstone_torch":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:redstone_torch"}
+		},
+		"sea_lantern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sea_lantern"}
+		},
+		"sea_pickle":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sea_pickle"}
+		},
+		"torch":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:torch"}
+		}
+	},
+	"requirements":
+	[
+		[
+			"beacon",
+			"campfire",
+			"conduit",
+			"end_rod",
+			"glowstone",
+			"jack_o_lantern",
+			"lantern",
+			"magma_block",
+			"redstone_lamp",
+			"redstone_torch",
+			"sea_lantern",
+			"sea_pickle",
+			"torch"
+		]
+	],
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:iron_sword"},
+		"title": {"text": "Rolls of fat"},
+		"description": {"text": "Leave your sword behind"}
+	},
+	"parent": "lae:bible/murder",
+	"criteria":
+	{
+	
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

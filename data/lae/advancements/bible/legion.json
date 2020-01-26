@@ -1,0 +1,30 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:porkchop"},
+		"title": {"text": "Legion"},
+		"description": {"text": "Cast out the demons into the pigs"}
+	},
+	"parent": "lae:bible/sower",
+	"criteria":
+	{
+		"pork":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:porkchop",
+						"count": 64
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

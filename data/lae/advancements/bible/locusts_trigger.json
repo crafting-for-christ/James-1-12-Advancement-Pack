@@ -1,0 +1,19 @@
+{
+	"parent": "lae:bible/root",
+	"criteria":
+	{
+		"bee":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"parent":
+				{"type": "bee"}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/locusts_trigger"
+	}
+}

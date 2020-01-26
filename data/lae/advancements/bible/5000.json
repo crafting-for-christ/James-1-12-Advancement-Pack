@@ -1,0 +1,97 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:bread"},
+		"title": {"text": "Feeding 5000"},
+		"description": {"text": "Or just eat it all yourself"}
+	},
+	"parent": "lae:bible/legion",
+	"criteria":
+	{
+		"cod":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:cod",
+						"count": 2
+					},
+					{
+						"item": "minecraft:bread",
+						"count": 5
+					}
+				]
+			}
+		}
+		,"salmon":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:salmon",
+						"count": 2
+					},
+					{
+						"item": "minecraft:bread",
+						"count": 5
+					}
+				]
+			}
+		}
+		,"cooked_cod":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:cooked_cod",
+						"count": 2
+					},
+					{
+						"item": "minecraft:bread",
+						"count": 5
+					}
+				]
+			}
+		}
+		,"cooked_salmon":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:cooked_salmon",
+						"count": 2
+					},
+					{
+						"item": "minecraft:bread",
+						"count": 5
+					}
+				]
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"cod"
+			,"salmon"
+			,"cooked_cod"
+			,"cooked_salmon"
+		]
+	],
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:diamond_block"},
+		"title": {"text": "Kindness"},
+		"description": {"text": "A generous donation"}
+	},
+	"parent": "lae:bible/patience",
+	"criteria":
+	{
+		"diamonds_to_you":
+			{"trigger": "minecraft:impossible"} 
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

@@ -1,0 +1,422 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:peony"},
+		"title": {"text": "Gardener of Eden"},
+		"description": {"text": "Build a beautiful garden"},
+		"frame": "challenge"
+	},
+	"parent": "lae:bible/tree_of_life",
+	"criteria":
+	{
+		"oak_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:oak_log"}
+		}
+		,"spruce_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:spruce_log"}
+		}
+		,"birch_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:birch_log"}
+		}
+		,"jungle_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:jungle_log"}
+		}
+		,"acacia_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:acacia_log"}
+		}
+		,"dark_oak_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:dark_oak_log"}
+		}
+		,"oak_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:oak_sapling"}
+		}
+		,"spruce_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:spruce_sapling"}
+		}
+		,"birch_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:birch_sapling"}
+		}
+		,"jungle_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:jungle_sapling"}
+		}
+		,"acacia_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:acacia_sapling"}
+		}
+		,"dark_oak_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:dark_oak_sapling"}
+		}
+		,"oak_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:oak_leaves"}
+		}
+		,"spruce_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:spruce_leaves"}
+		}
+		,"birch_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:birch_leaves"}
+		}
+		,"jungle_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:jungle_leaves"}
+		}
+		,"acacia_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:acacia_leaves"}
+		}
+		,"dark_oak_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:dark_oak_leaves"}
+		}
+		,"blue_coral_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:tube_coral_block"}
+		}
+		,"blue_coral_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:tube_coral"}
+		}
+		,"blue_coral_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:tube_coral_fan"}
+		}
+		,"pink_coral_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:brain_coral_block"}
+		}
+		,"pink_coral_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:brain_coral"}
+		}
+		,"pink_coral_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:brain_coral_fan"}
+		}
+		,"purple_coral_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:bubble_coral_block"}
+		}
+		,"purple_coral_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:bubble_coral"}
+		}
+		,"purple_coral_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:bubble_coral_fan"}
+		}
+		,"red_coral_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:fire_coral_block"}
+		}
+		,"red_coral_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:fire_coral"}
+		}
+		,"red_coral_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:fire_coral_fan"}
+		}
+		,"yellow_coral_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:horn_coral_block"}
+		}
+		,"yellow_coral_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:horn_coral"}
+		}
+		,"yellow_coral_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:horn_coral_fan"}
+		}
+		,"seagrass":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:seagrass"}
+		}
+		,"pickle":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sea_pickle"}
+		}
+		,"kelp":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:kelp"}
+		}
+		,"dandelion":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:dandelion"}
+		}
+		,"poppy":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:poppy"}
+		}
+		,"blue_orchid":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:blue_orchid"}
+		}
+		,"allium":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:allium"}
+		}
+		,"azure_bluet":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:azure_bluet"}
+		}
+		,"red_tulip":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:red_tulip"}
+		}
+		,"orange_tulip":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:orange_tulip"}
+		}
+		,"white_tulip":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:white_tulip"}
+		}
+		,"pink_tulip":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:pink_tulip"}
+		}
+		,"oxeye_daisy":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:oxeye_daisy"}
+		}
+		,"cornflower":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:cornflower"}
+		}
+		,"lily_of_the_valley":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lily_of_the_valley"}
+		}
+		,"wither_rose":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:wither_rose"}
+		}
+		,"sunflower":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sunflower"}
+		}
+		,"lilac":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lilac"}
+		}
+		,"rose_bush":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:rose_bush"}
+		}
+		,"peony":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:peony"}
+		}
+		,"grass":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:grass"}
+		}
+		,"tall_grass":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:tall_grass"}
+		}
+		,"fern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:fern"}
+		}
+		,"large_fern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:large_fern"}
+		}
+		,"vine":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:vine"}
+		}
+		,"lily_pad":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:lily_pad"}
+		}
+		,"gass_block":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:grass_block"}
+		}
+		,"mycelium":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:mycelium"}
+		}
+		,"podzol":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:podzol"}
+		}
+		,"wheat":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:wheat"}
+		}
+		,"pumpkin_stem":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:pumpkin_stem"}
+		}
+		,"pumpkin":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:pumpkin"}
+		}
+		,"melon_stem":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:melon_stem"}
+		}
+		,"melon":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:melon"}
+		}
+		,"beetroots":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:beetroots"}
+		}
+		,"carrots":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:carrots"}
+		}
+		,"potatoes":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:potatoes"}
+		}
+		,"sweet_berry_bush":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sweet_berry_bush"}
+		}
+		,"sugar_cane":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:sugar_cane"}
+		}
+		,"bamboo":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:bamboo_sapling"}
+		}
+		,"cactus":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:cactus"}
+		}
+		,"mushroom_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:brown_mushroom"}
+		}
+		,"mushroom_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:red_mushroom"}
+		}
+		,"mushroom_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:mushroom_stem"}
+		}
+		,"mushroom_4":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:brown_mushroom_block"}
+		}
+		,"mushroom_5":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:red_mushroom_block"}
+		}
+		,"nether_wart":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:nether_wart"}
+		}
+		,"chorus_flower":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chorus_flower"}
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

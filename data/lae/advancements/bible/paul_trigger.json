@@ -1,0 +1,14 @@
+{
+	"parent": "lae:bible/root",
+	"criteria":
+	{
+		"move":
+		{
+			"trigger": "minecraft:location"
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/paul_trigger"
+	}
+}

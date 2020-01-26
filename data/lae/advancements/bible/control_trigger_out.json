@@ -1,0 +1,41 @@
+{
+	"parent": "lae:bible/root",
+	"criteria":
+	{
+		"over":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "desert",
+				"position": 
+				{
+					"y": {"min": 54}
+				}
+			}
+		},
+		"under":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "desert",
+				"position": 
+				{
+					"y": {"max": 49}
+				}
+			}
+		}
+	},
+	"requirements":
+	[
+		[
+			"over",
+			"under"
+		]
+	],
+	"rewards":
+	{
+		"function": "lae:bible/control_trigger_out"
+	}
+}

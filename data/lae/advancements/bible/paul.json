@@ -1,0 +1,22 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:leather_boots"},
+		"title": {"text": "Paul's Traveling Companion"},
+		"description": {"text": "Paul traveled a long way. Well done keeping up!"},
+		"hidden": "true",
+		"frame": "challenge"
+	},
+	"parent": "lae:bible/savior",
+	"criteria":
+	{
+		"walk":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

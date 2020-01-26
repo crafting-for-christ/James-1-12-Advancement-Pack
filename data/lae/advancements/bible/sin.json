@@ -1,0 +1,25 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:apple"},
+		"title": {"text": "Sin"},
+		"description": {"text": "It probably wasn't an apple"},
+		"hidden": "true"
+	},
+	"parent": "lae:bible/root",
+	"criteria":
+	{
+		"apple":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item": {"item": "minecraft:apple"}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}

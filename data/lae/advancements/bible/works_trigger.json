@@ -1,0 +1,14 @@
+{
+	"parent": "lae:bible/root",
+	"criteria":
+	{
+		"advancement":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/works_trigger"
+	}
+}

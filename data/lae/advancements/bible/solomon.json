@@ -1,0 +1,62 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:gold_block"},
+		"title": {"text": "King Solomon"},
+		"description": {"text": "Gain the wealth of Solomon"},
+		"frame": "challenge"
+	},
+	"parent": "lae:bible/psalmist",
+	"criteria":
+	{
+		"solomon":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:diamond_block",
+						"count": 64
+					},
+					{
+						"item": "minecraft:gold_block",
+						"count": 64
+					},
+					{
+						"item": "minecraft:quartz_block",
+						"count": 64
+					},
+					{
+						"item": "minecraft:emerald_block",
+						"count": 64
+					},
+					{
+						"item": "minecraft:lapis_block",
+						"count": 64
+					},
+					{
+						"item": "minecraft:totem_of_undying"
+					},
+					{
+						"item": "minecraft:diamond_helmet"
+					},
+					{
+						"item": "minecraft:diamond_chestplate"
+					},
+					{
+						"item": "minecraft:diamond_leggings"
+					},
+					{
+						"item": "minecraft:diamond_boots"
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "lae:bible/advance"
+	}
+}
