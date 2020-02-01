@@ -5,7 +5,7 @@
 		"title": {"text": "Sent Out"},
 		"description": {"text": "Go to all the nations"}
 	},
-	"parent": "lae:bible/supper",
+	"parent": "lae:bible/weak_flesh",
 	"criteria":
 	{
 		"plains":

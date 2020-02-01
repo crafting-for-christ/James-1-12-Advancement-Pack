@@ -9,7 +9,7 @@
 	"parent": "lae:bible/water_walking",
 	"criteria":
 	{
-		"nuggets":
+		"12":
 		{
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
@@ -22,8 +22,29 @@
 					}
 				]
 			}
+		},
+		"30":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"item": "minecraft:iron_nugget",
+						"count": 30
+					}
+				]
+			}
 		}
 	},
+	"requirements":
+	[
+		[
+			"12",
+			"30"
+		]
+	],
 	"rewards":
 	{
 		"function": "lae:bible/advance"
