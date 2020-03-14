@@ -384,6 +384,28 @@
 				}
 			}
 		},
+		"piglin":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "piglin"
+				}
+			}
+		},
+		"hoglin":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "hoglin"
+				}
+			}
+		},
 		"blaze":
 		{
 			"trigger": "minecraft:player_killed_entity",
@@ -645,28 +667,6 @@
 				"entity":
 				{
 					"type": "zombie_villager"
-				}
-			}
-		},
-		"piglin":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "piglin"
-				}
-			}
-		},
-		"hoglin":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "hoglin"
 				}
 			}
 		},
