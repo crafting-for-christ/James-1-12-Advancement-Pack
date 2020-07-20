@@ -68,6 +68,21 @@
 			"trigger": "minecraft:placed_block",
 			"conditions": {"block": "minecraft:shroomlight"}
 		},
+		"soul_campfire":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:soul_campfire"}
+		},
+		"soul_lantern":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:soul_lantern"}
+		},
+		"soul_torch":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:soul_torch"}
+		},
 		"torch":
 		{
 			"trigger": "minecraft:placed_block",
@@ -89,6 +104,9 @@
 			"sea_lantern",
 			"sea_pickle",
 			"shroomlight",
+			"soul_campfire",
+			"soul_lantern",
+			"soul_torch",
 			"torch"
 		]
 	],
