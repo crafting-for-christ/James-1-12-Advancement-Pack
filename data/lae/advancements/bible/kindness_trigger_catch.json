@@ -11,6 +11,6 @@
 	},
 	"rewards":
 	{
-		"function": "lae:bible/kindness_trigger_catch1"
+		"function": "lae:bible/kindness_trigger_catch"
 	}
 }
