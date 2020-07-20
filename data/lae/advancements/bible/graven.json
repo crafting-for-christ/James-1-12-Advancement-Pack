@@ -28,6 +28,16 @@
 			"trigger": "minecraft:placed_block",
 			"conditions": {"block": "minecraft:chiseled_red_sandstone"}
 		}
+		,"chiseled_nether_bricks":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_nether_bricks"}
+		}
+		,"chiseled_polished_blackstone":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_polished_blackstone"}
+		}
 		,"totem_of_undying":
 		{
 			"trigger": "minecraft:inventory_changed",
