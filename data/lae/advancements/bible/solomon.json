@@ -17,39 +17,43 @@
 				"items":
 				[
 					{
+						"item": "minecraft:netherite_block",
+						"count": {"min": 1}
+					},
+					{
 						"item": "minecraft:diamond_block",
-						"count": 64
+						"count": {"min": 8}
 					},
 					{
 						"item": "minecraft:gold_block",
-						"count": 64
+						"count": {"min": 16}
 					},
 					{
 						"item": "minecraft:quartz_block",
-						"count": 64
+						"count": {"min": 32}
 					},
 					{
 						"item": "minecraft:emerald_block",
-						"count": 64
+						"count": {"min": 16}
 					},
 					{
 						"item": "minecraft:lapis_block",
-						"count": 64
+						"count": {"min": 32}
 					},
 					{
 						"item": "minecraft:totem_of_undying"
 					},
 					{
-						"item": "minecraft:diamond_helmet"
+						"item": "minecraft:netherite_helmet"
 					},
 					{
-						"item": "minecraft:diamond_chestplate"
+						"item": "minecraft:netherite_chestplate"
 					},
 					{
-						"item": "minecraft:diamond_leggings"
+						"item": "minecraft:netherite_leggings"
 					},
 					{
-						"item": "minecraft:diamond_boots"
+						"item": "minecraft:netherite_boots"
 					}
 				]
 			}
