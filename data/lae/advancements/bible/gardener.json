@@ -39,6 +39,16 @@
 			"trigger": "minecraft:placed_block",
 			"conditions": {"block": "minecraft:dark_oak_log"}
 		}
+		,"crimson_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:crimson_stem"}
+		}
+		,"warped_1":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:warped_stem"}
+		}
 		,"oak_2":
 		{
 			"trigger": "minecraft:placed_block",
@@ -69,6 +79,16 @@
 			"trigger": "minecraft:placed_block",
 			"conditions": {"block": "minecraft:dark_oak_sapling"}
 		}
+		,"crimson_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:crimson_fungus"}
+		}
+		,"warped_2":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:warped_fungus"}
+		}
 		,"oak_3":
 		{
 			"trigger": "minecraft:placed_block",
@@ -98,6 +118,16 @@
 		{
 			"trigger": "minecraft:placed_block",
 			"conditions": {"block": "minecraft:dark_oak_leaves"}
+		}
+		,"crimson_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:nether_wart_block"}
+		}
+		,"warped_3":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:warped_wart_block"}
 		}
 		,"blue_coral_1":
 		{
@@ -403,6 +433,31 @@
 		{
 			"trigger": "minecraft:placed_block",
 			"conditions": {"block": "minecraft:chorus_flower"}
+		}
+		,"crimson_roots":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:crimson_roots"}
+		}
+		,"warped_roots":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:warped_roots"}
+		}
+		,"nether_sprouts":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:nether_sprouts"}
+		}
+		,"weeping_vines":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:weeping_vines"}
+		}
+		,"twisting_vines":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:twisting_vines"}
 		}
 	},
 	"rewards":
