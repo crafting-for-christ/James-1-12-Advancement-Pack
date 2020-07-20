@@ -10,6 +10,61 @@
 	"parent": "lae:bible/ark",
 	"criteria":
 	{
+		"zombified_piglin":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "zombified_piglin"
+				}
+			}
+		},
+		"piglin":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "piglin"
+				}
+			}
+		},
+		"hoglin":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "hoglin"
+				}
+			}
+		},
+		"zoglin":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "zoglin"
+				}
+			}
+		},
+		"strider":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "strider"
+				}
+			}
+		},
 		"bat":
 		{
 			"trigger": "minecraft:player_killed_entity",
