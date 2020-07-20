@@ -196,6 +196,17 @@
 				}
 			}
 		},
+		"hoglin":
+		{
+			"trigger": "minecraft:bred_animals",
+			"conditions":
+			{
+				"child":
+				{
+					"type": "minecraft:hoglin"
+				}
+			}
+		},
 		"oak_boat":
 		{
 			"trigger": "minecraft:inventory_changed",
