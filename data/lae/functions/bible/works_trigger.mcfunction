@@ -62,6 +62,7 @@ scoreboard players add @s[advancements={lae:bible/tree_of_life=true}] lae_tally 
 scoreboard players add @s[advancements={lae:bible/water_walking=true}] lae_tally 1
 scoreboard players add @s[advancements={lae:bible/weak_flesh=true}] lae_tally 1
 scoreboard players add @s[advancements={lae:bible/works=true}] lae_tally 1
+scoreboard players add @s[advancements={lae:bible/worst_trade=true}] lae_tally 1
 
 
 advancement grant @s[scores={lae_tally=62..}] only lae:bible/works
