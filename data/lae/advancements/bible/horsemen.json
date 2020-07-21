@@ -17,8 +17,7 @@
 				"victims":
 				[
 					{
-						"type": "minecraft:skeleton_horse",
-						"nbt": "{SkeletonTrap: true}"
+						"type": "minecraft:skeleton_horse"
 					}
 				]
 			}
