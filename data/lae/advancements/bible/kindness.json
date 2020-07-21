@@ -20,7 +20,7 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": 
-							{"kindness_throw": 0}
+							{"lae_kind_throw": 0}
 					}
 				]
 			}
