@@ -603,24 +603,6 @@
 				}
 			}
 		},
-		"zombie_pigman":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "zombie_pigman"
-				},
-				"killing_blow":
-				{
-					"source_entity":
-					{
-						"nbt": "{SelectedItem:{id:\"minecraft:wooden_sword\"}}"
-					}
-				}
-			}
-		},
 		"blaze":
 		{
 			"trigger": "minecraft:player_killed_entity",

@@ -4,13 +4,13 @@
 	{
 		"catch":
 		{
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions":
 				{"items":[{"item": "minecraft:diamond_block"}]}
 		}
 	},
 	"rewards":
 	{
-		"function": "lae:bible/kindness_trigger_catch1"
+		"function": "lae:bible/kindness_trigger_catch"
 	}
 }

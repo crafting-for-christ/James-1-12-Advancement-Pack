@@ -9,7 +9,22 @@
 	"criteria":
 	{
 		"diamonds_to_you":
-			{"trigger": "minecraft:impossible"} 
+			{
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions":
+			{
+				"item": {"item": "minecraft:diamond_block"},
+				"entity":
+				[
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": 
+							{"lae_kind_throw": 0}
+					}
+				]
+			}
+		} 
 	},
 	"rewards":
 	{
