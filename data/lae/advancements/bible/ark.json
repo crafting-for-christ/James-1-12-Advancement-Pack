@@ -212,7 +212,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
-				"items": [{"item": "minecraft:oak_boat"}]
+				"items": [{"items": ["minecraft:oak_boat"]}]
 			}
 		},
 		"spruce_boat":
@@ -220,7 +220,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
-				"items": [{"item": "minecraft:spruce_boat"}]
+				"items": [{"items": ["minecraft:spruce_boat"]}]
 			}
 		},
 		"birch_boat":
@@ -228,7 +228,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
-				"items": [{"item": "minecraft:birch_boat"}]
+				"items": [{"items": ["minecraft:birch_boat"]}]
 			}
 		},
 		"jungle_boat":
@@ -236,7 +236,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
-				"items": [{"item": "minecraft:jungle_boat"}]
+				"items": [{"items": ["minecraft:jungle_boat"]}]
 			}
 		},
 		"acacia_boat":
@@ -244,7 +244,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
-				"items": [{"item": "minecraft:acacia_boat"}]
+				"items": [{"items": ["minecraft:acacia_boat"]}]
 			}
 		},
 		"dark_oak_boat":
@@ -252,7 +252,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
-				"items": [{"item": "minecraft:dark_oak_boat"}]
+				"items": [{"items": ["minecraft:dark_oak_boat"]}]
 			}
 		}
 	},
