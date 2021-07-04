@@ -5,18 +5,11 @@ gamerule logAdminCommands false
 scoreboard objectives add lae_tally dummy ["James 1:12 Advancements"]
 
 scoreboard objectives add lae_paul dummy
-scoreboard objectives add lae_walk_cm minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add lae_walk
-scoreboard objectives add lae_run_cm minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add lae_run
-scoreboard objectives add lae_boat_cm minecraft.custom:minecraft.boat_one_cm
-scoreboard objectives add lae_boat
-scoreboard objectives add lae_fly_cm minecraft.custom:minecraft.fly_one_cm
-scoreboard objectives add lae_fly
-scoreboard objectives add lae_ride_cm minecraft.custom:minecraft.horse_one_cm
-scoreboard objectives add lae_ride
-scoreboard objectives add 100 dummy
-scoreboard players set # 100
+scoreboard objectives add lae_walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add lae_run minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add lae_boat minecraft.custom:minecraft.boat_one_cm
+scoreboard objectives add lae_fly minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add lae_ride minecraft.custom:minecraft.horse_one_cm
 
 scoreboard objectives add lae_bees dummy
 
