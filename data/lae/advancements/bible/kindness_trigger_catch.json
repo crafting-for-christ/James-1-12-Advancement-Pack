@@ -6,7 +6,7 @@
 		{
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions":
-				{"items":[{"item": "minecraft:diamond_block"}]}
+				{"items":[{"items": ["minecraft:diamond_block"]}]}
 		}
 	},
 	"rewards":
