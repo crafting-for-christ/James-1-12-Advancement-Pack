@@ -16,7 +16,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:scute",
+						"items": ["minecraft:scute"],
 						"count": 5
 					}
 				]
