@@ -3,55 +3,14 @@
 	{
 		"icon": {"item": "minecraft:diamond_sword"},
 		"title": {"text": "Savior Of All"},
-		"description": {"text": "Bring salvation to all nations"}
+		"description": {"text": "Bring salvation to the nations"}
 	},
 	"parent": "lae:bible/leap",
 	"criteria":
 	{
-		"plains":
+		"hero":
 		{
-			"trigger": "minecraft:hero_of_the_village",
-			"conditions":
-			{
-				"feature": "Village",
-				"biome": "plains"
-			}
-		}
-		,"desert":
-		{
-			"trigger": "minecraft:hero_of_the_village",
-			"conditions":
-			{
-				"feature": "Village",
-				"biome": "desert"
-			}
-		}
-		,"savanna":
-		{
-			"trigger": "minecraft:hero_of_the_village",
-			"conditions":
-			{
-				"feature": "Village",
-				"biome": "savanna"
-			}
-		}
-		,"taiga":
-		{
-			"trigger": "minecraft:hero_of_the_village",
-			"conditions":
-			{
-				"feature": "Village",
-				"biome": "taiga"
-			}
-		}
-		,"snowy_tundra":
-		{
-			"trigger": "minecraft:hero_of_the_village",
-			"conditions":
-			{
-				"feature": "Village",
-				"biome": "snowy_tundra"
-			}
+			"trigger": "minecraft:hero_of_the_village"
 		}
 	},
 	"rewards":
