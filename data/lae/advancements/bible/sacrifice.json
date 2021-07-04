@@ -3,17 +3,18 @@
 	{
 		"icon": {"item": "minecraft:mutton"},
 		"title": {"text": "Sacrifice to the Lord"},
-		"description": {"text": "Kill a sheep, not your son"}
+		"description": {"text": "Kill a goat, not your son"}
 	},
 	"parent": "lae:bible/babel",
 	"criteria":
 	{
 		"mutton":
 		{
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:player_killed_entity",
 			"conditions":
 			{
-				"items": [{"item": "minecraft:mutton"}]
+				"entity":
+				{"type": "goat"}
 			}
 		}
 	},
