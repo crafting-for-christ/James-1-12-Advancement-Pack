@@ -43,7 +43,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
-				"items": [{"item": "minecraft:totem_of_undying"}]
+				"items": [{"items": ["minecraft:totem_of_undying"]}]
 			}
 		}
 	},
