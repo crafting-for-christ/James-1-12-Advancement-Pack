@@ -16,7 +16,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:diamond_pickaxe",
+						"items": ["minecraft:diamond_pickaxe"],
 						"enchantments":
 						[{"enchantment": "minecraft:silk_touch"}]
 					}
@@ -31,7 +31,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:diamond_shovel",
+						"items": ["minecraft:diamond_shovel"],
 						"enchantments":
 						[{"enchantment": "minecraft:silk_touch"}]
 					}
@@ -46,7 +46,22 @@
 				"items":
 				[
 					{
-						"item": "minecraft:diamond_axe",
+						"items": ["minecraft:diamond_axe"],
+						"enchantments":
+						[{"enchantment": "minecraft:silk_touch"}]
+					}
+				]
+			}
+		}
+		,"hoe":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": ["minecraft:diamond_hoe"],
 						"enchantments":
 						[{"enchantment": "minecraft:silk_touch"}]
 					}
