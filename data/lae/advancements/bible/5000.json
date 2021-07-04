@@ -16,11 +16,11 @@
 				"items":
 				[
 					{
-						"item": "minecraft:cod",
+						"items": ["minecraft:cod"],
 						"count": 2
 					},
 					{
-						"item": "minecraft:bread",
+						"items": ["minecraft:bread"],
 						"count": 5
 					}
 				]
@@ -34,11 +34,11 @@
 				"items":
 				[
 					{
-						"item": "minecraft:salmon",
+						"items": ["minecraft:salmon"],
 						"count": 2
 					},
 					{
-						"item": "minecraft:bread",
+						"items": ["minecraft:bread"],
 						"count": 5
 					}
 				]
@@ -52,11 +52,11 @@
 				"items":
 				[
 					{
-						"item": "minecraft:cooked_cod",
+						"items": "[minecraft:cooked_cod]",
 						"count": 2
 					},
 					{
-						"item": "minecraft:bread",
+						"items": "[minecraft:bread]",
 						"count": 5
 					}
 				]
@@ -70,11 +70,11 @@
 				"items":
 				[
 					{
-						"item": "minecraft:cooked_salmon",
+						"items": ["minecraft:cooked_salmon"],
 						"count": 2
 					},
 					{
-						"item": "minecraft:bread",
+						"items": ["minecraft:bread"],
 						"count": 5
 					}
 				]
