@@ -13,7 +13,7 @@
 			"trigger": "minecraft:consume_item",
 			"conditions":
 			{
-				"item": {"item": "minecraft:beetroot_soup"}
+				"item": {"items": ["minecraft:beetroot_soup"]}
 			}
 		}
 		,"rabbit":
@@ -21,7 +21,7 @@
 			"trigger": "minecraft:consume_item",
 			"conditions":
 			{
-				"item": {"item": "minecraft:rabbit_stew"}
+				"item": {"items": ["minecraft:rabbit_stew"]}
 			}
 		}
 		,"mushroom":
@@ -29,7 +29,7 @@
 			"trigger": "minecraft:consume_item",
 			"conditions":
 			{
-				"item": {"item": "minecraft:mushroom_stew"}
+				"item": {"items": ["minecraft:mushroom_stew"]}
 			}
 		}
 		,"suspicious":
@@ -37,7 +37,7 @@
 			"trigger": "minecraft:consume_item",
 			"conditions":
 			{
-				"item": {"item": "minecraft:suspicious_stew"}
+				"item": {"items": ["minecraft:suspicious_stew"]}
 			}
 		}
 	},
