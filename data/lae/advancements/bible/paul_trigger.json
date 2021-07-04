@@ -9,6 +9,6 @@
 	},
 	"rewards":
 	{
-		"function": "lae:bible/paul_trigger"
+		"function": "lae:bible/paul_trigger_0"
 	}
 }
