@@ -41,7 +41,7 @@
 						"count": {"min": 32}
 					},
 					{
-						"items": ["minecraft:totem_of_undying]"
+						"items": ["minecraft:totem_of_undying"]
 					},
 					{
 						"items": ["minecraft:netherite_helmet"]
