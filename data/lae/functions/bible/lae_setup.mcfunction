@@ -27,7 +27,7 @@ advancement revoke @a only lae:bible/locusts_trigger
 advancement revoke @a only lae:bible/kindness_trigger_catch
 
 #set up gamerules
-dificulty hard
+difficulty hard
 gamerule doDaylightCycle true
 gamerule doFireTick false
 gamerule doWeatherCycle true
