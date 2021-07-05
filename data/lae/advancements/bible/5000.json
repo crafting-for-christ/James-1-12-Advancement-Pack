@@ -16,61 +16,7 @@
 				"items":
 				[
 					{
-						"items": ["minecraft:cod"],
-						"count": 2
-					},
-					{
-						"items": ["minecraft:bread"],
-						"count": 5
-					}
-				]
-			}
-		}
-		,"salmon":
-		{
-			"trigger": "minecraft:inventory_changed",
-			"conditions":
-			{
-				"items":
-				[
-					{
-						"items": ["minecraft:salmon"],
-						"count": 2
-					},
-					{
-						"items": ["minecraft:bread"],
-						"count": 5
-					}
-				]
-			}
-		}
-		,"cooked_cod":
-		{
-			"trigger": "minecraft:inventory_changed",
-			"conditions":
-			{
-				"items":
-				[
-					{
-						"items": "[minecraft:cooked_cod]",
-						"count": 2
-					},
-					{
-						"items": "[minecraft:bread]",
-						"count": 5
-					}
-				]
-			}
-		}
-		,"cooked_salmon":
-		{
-			"trigger": "minecraft:inventory_changed",
-			"conditions":
-			{
-				"items":
-				[
-					{
-						"items": ["minecraft:cooked_salmon"],
+						"items": ["cod","cooked_cod","salmon","cooked_salmon"],
 						"count": 2
 					},
 					{
@@ -81,15 +27,6 @@
 			}
 		}
 	},
-	"requirements":
-	[
-		[
-			"cod"
-			,"salmon"
-			,"cooked_cod"
-			,"cooked_salmon"
-		]
-	],
 	"rewards":
 	{
 		"function": "lae:bible/advance"
