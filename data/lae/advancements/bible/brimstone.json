@@ -6,7 +6,7 @@
 		"description": {"text": "Burn their souls!"},
 		"frame": "goal"
 	},
-	"parent": "lae:bible/sin",
+	"parent": "lae:bible/jawbone",
 	"criteria":
 	{
 		"brimstone":
