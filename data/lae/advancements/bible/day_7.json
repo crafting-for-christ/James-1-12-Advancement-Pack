@@ -1,7 +1,7 @@
 {
 	"display":
 	{
-		"icon": {"item": "minecraft:red_bed"},
+		"icon": {"item": "minecraft:green_bed"},
 		"title": {"text": "The seventh day"},
 		"description": {"text": "God rested. You should too."}
 	},
