@@ -38,6 +38,16 @@
 			"trigger": "minecraft:placed_block",
 			"conditions": {"block": "minecraft:chiseled_polished_blackstone"}
 		}
+		,"chiseled_deepslate":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_deepslate"}
+		}
+		,"chiseled_stone_bricks":
+		{
+			"trigger": "minecraft:placed_block",
+			"conditions": {"block": "minecraft:chiseled_stone_bricks"}
+		}
 		,"totem_of_undying":
 		{
 			"trigger": "minecraft:inventory_changed",
