@@ -16,7 +16,7 @@
 				"items":
 				[
 					{
-						"items": ["diamond_pickaxe","netherite_pickaxe"],
+						"items": ["minecraft:diamond_pickaxe"],
 						"enchantments":
 						[{"enchantment": "minecraft:silk_touch"}]
 					}
@@ -31,7 +31,7 @@
 				"items":
 				[
 					{
-						"items": ["diamond_shovel","netherite_shovel"],
+						"items": ["minecraft:diamond_shovel"],
 						"enchantments":
 						[{"enchantment": "minecraft:silk_touch"}]
 					}
@@ -46,7 +46,7 @@
 				"items":
 				[
 					{
-						"items": ["diamond_axe","netherite_axe"],
+						"items": ["minecraft:diamond_axe"],
 						"enchantments":
 						[{"enchantment": "minecraft:silk_touch"}]
 					}
@@ -61,7 +61,7 @@
 				"items":
 				[
 					{
-						"items": ["diamond_hoe","netherite_hoe"],
+						"items": ["minecraft:diamond_hoe"],
 						"enchantments":
 						[{"enchantment": "minecraft:silk_touch"}]
 					}
