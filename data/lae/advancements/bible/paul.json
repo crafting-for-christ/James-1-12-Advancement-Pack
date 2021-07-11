@@ -7,7 +7,7 @@
 		"hidden": "true",
 		"frame": "challenge"
 	},
-	"parent": "lae:bible/savior",
+	"parent": "lae:bible/ascension",
 	"criteria":
 	{
 		"walk":
