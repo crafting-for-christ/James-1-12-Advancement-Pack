@@ -263,6 +263,17 @@
 				}
 			}
 		},
+		"goat":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "goat"
+				}
+			}
+		},
 		"squid":
 		{
 			"trigger": "minecraft:player_killed_entity",
@@ -271,6 +282,28 @@
 				"entity":
 				{
 					"type": "squid"
+				}
+			}
+		},
+		"glow_squid":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "glow_squid"
+				}
+			}
+		},
+		"axolotl":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "axolotl"
 				}
 			}
 		},
@@ -293,39 +326,6 @@
 				"entity":
 				{
 					"type": "turtle"
-				}
-			}
-		},
-		"villager":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "villager"
-				}
-			}
-		},
-		"wandering_trader":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "wandering_trader"
-				}
-			}
-		},
-		"trader_llama":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "trader_llama"
 				}
 			}
 		},
@@ -458,17 +458,6 @@
 				"entity":
 				{
 					"type": "drowned"
-				}
-			}
-		},
-		"elder_guardian":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "elder_guardian"
 				}
 			}
 		},
@@ -626,17 +615,6 @@
 				}
 			}
 		},
-		"vex":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "vex"
-				}
-			}
-		},
 		"vindicator":
 		{
 			"trigger": "minecraft:player_killed_entity",
@@ -689,61 +667,6 @@
 				"entity":
 				{
 					"type": "zombie_villager"
-				}
-			}
-		},
-		"iron_golem":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "iron_golem"
-				}
-			}
-		},
-		"snow_golem":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "snow_golem"
-				}
-			}
-		},
-		"ender_dragon":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "ender_dragon"
-				}
-			}
-		},
-		"wither":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "wither"
-				}
-			}
-		},
-		"player":
-		{
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "player"
 				}
 			}
 		}
