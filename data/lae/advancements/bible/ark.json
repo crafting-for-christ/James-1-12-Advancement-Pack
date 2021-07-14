@@ -130,17 +130,6 @@
 				}
 			}
 		},
-		"ocelot":
-		{
-			"trigger": "minecraft:bred_animals",
-			"conditions":
-			{
-				"child":
-				{
-					"type": "minecraft:ocelot"
-				}
-			}
-		},
 		"rabbit":
 		{
 			"trigger": "minecraft:bred_animals",
@@ -193,17 +182,6 @@
 				"child":
 				{
 					"type": "minecraft:fox"
-				}
-			}
-		},
-		"hoglin":
-		{
-			"trigger": "minecraft:bred_animals",
-			"conditions":
-			{
-				"child":
-				{
-					"type": "minecraft:hoglin"
 				}
 			}
 		},
