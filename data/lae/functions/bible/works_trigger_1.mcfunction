@@ -59,5 +59,6 @@ execute as @a[tag=works_test] run scoreboard players add @s[advancements={lae:bi
 execute as @a[tag=works_test] run scoreboard players add @s[advancements={lae:bible/tree_of_life=true}] lae_tally 1
 execute as @a[tag=works_test] run scoreboard players add @s[advancements={lae:bible/water_walking=true}] lae_tally 1
 execute as @a[tag=works_test] run scoreboard players add @s[advancements={lae:bible/weak_flesh=true}] lae_tally 1
-execute as @a[tag=works_test] run scoreboard players add @s[advancements={lae:bible/works=true}] lae_tally 1
 execute as @a[tag=works_test] run scoreboard players add @s[advancements={lae:bible/worst_trade=true}] lae_tally 1
+
+execute as @a[tag=works_test] run scoreboard players add @s[advancements={lae:bible/works=true}] lae_tally 1
