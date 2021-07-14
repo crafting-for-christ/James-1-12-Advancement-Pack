@@ -12,46 +12,31 @@
 		{
 			"trigger": "minecraft:hero_of_the_village",
 			"conditions":
-			{
-				"feature": "village",
-				"biome": "plains"
-			}
+				{"location":{"biome": "plains"}}
 		}
 		,"desert":
 		{
 			"trigger": "minecraft:hero_of_the_village",
 			"conditions":
-			{
-				"feature": "village",
-				"biome": "desert"
-			}
+				{"location":{"biome": "desert"}}
 		}
 		,"savanna":
 		{
 			"trigger": "minecraft:hero_of_the_village",
 			"conditions":
-			{
-				"feature": "village",
-				"biome": "savanna"
-			}
+				{"location":{"biome": "savanna"}}
 		}
 		,"taiga":
 		{
 			"trigger": "minecraft:hero_of_the_village",
 			"conditions":
-			{
-				"feature": "village",
-				"biome": "taiga"
-			}
+				{"location":{"biome": "taiga"}}
 		}
 		,"snowy_tundra":
 		{
 			"trigger": "minecraft:hero_of_the_village",
 			"conditions":
-			{
-				"feature": "village",
-				"biome": "snowy_tundra"
-			}
+				{"location":{"biome": "snowy_tundra"}}
 		}
 	},
 	"rewards":
