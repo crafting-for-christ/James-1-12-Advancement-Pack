@@ -1,7 +1,4 @@
 #initiate all the scoreboards needed
-gamerule commandBlockOutput false
-gamerule logAdminCommands false
-
 scoreboard objectives add lae_tally dummy ["James 1:12 Advancements"]
 
 scoreboard objectives add lae_paul dummy
@@ -25,11 +22,3 @@ advancement revoke @a only lae:bible/works_trigger
 advancement revoke @a only lae:bible/locusts
 advancement revoke @a only lae:bible/locusts_trigger
 advancement revoke @a only lae:bible/kindness_trigger_catch
-
-#set up gamerules
-difficulty hard
-gamerule doDaylightCycle true
-gamerule doFireTick false
-gamerule doWeatherCycle true
-gamerule playersSleepingPercentage 0
-gamerule spawnRadius 0
