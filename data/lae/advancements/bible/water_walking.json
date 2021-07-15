@@ -16,7 +16,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:leather_boots",
+						"items": ["minecraft:leather_boots"],
 						"enchantments":
 						[
 							{
@@ -36,7 +36,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:chainmail_boots",
+						"items": ["minecraft:chainmail_boots"],
 						"enchantments":
 						[
 							{
@@ -56,7 +56,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:iron_boots",
+						"items": ["minecraft:iron_boots"],
 						"enchantments":
 						[
 							{
@@ -76,7 +76,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:diamond_boots",
+						"items": ["minecraft:diamond_boots"],
 						"enchantments":
 						[
 							{
@@ -96,7 +96,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:golden_boots",
+						"items": ["minecraft:golden_boots"],
 						"enchantments":
 						[
 							{

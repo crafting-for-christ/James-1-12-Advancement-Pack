@@ -4,11 +4,11 @@
 	{
 		"advancement":
 		{
-			"trigger": "minecraft:location"
+			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards":
 	{
-		"function": "lae:bible/works_trigger_1"
+		"function": "lae:bible/works_trigger_0"
 	}
 }

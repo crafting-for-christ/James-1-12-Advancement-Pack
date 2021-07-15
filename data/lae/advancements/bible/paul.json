@@ -3,11 +3,11 @@
 	{
 		"icon": {"item": "minecraft:leather_boots"},
 		"title": {"text": "Paul's Traveling Companion"},
-		"description": {"text": "Paul traveled a long way. Well done keeping up!"},
+		"description": {"text": "Paul traveled a long way. You've made it 10% of the way"},
 		"hidden": "true",
 		"frame": "challenge"
 	},
-	"parent": "lae:bible/savior",
+	"parent": "lae:bible/ascension",
 	"criteria":
 	{
 		"walk":

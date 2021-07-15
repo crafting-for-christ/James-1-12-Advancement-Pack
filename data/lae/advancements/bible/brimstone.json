@@ -6,7 +6,7 @@
 		"description": {"text": "Burn their souls!"},
 		"frame": "goal"
 	},
-	"parent": "lae:bible/sin",
+	"parent": "lae:bible/jawbone",
 	"criteria":
 	{
 		"brimstone":
@@ -17,11 +17,11 @@
 				"items":
 				[
 					{
-						"item": "minecraft:magma_block",
+						"items": ["minecraft:magma_block"],
 						"count": 64
 					},
 					{
-						"item": "minecraft:soul_sand",
+						"items": ["minecraft:soul_sand"],
 						"count": 64
 					}
 				]

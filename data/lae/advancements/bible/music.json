@@ -16,7 +16,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:note_block",
+						"items": ["minecraft:note_block"],
 						"count": 1 
 					}
 				]
@@ -30,7 +30,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:jukebox",
+						"items": ["minecraft:jukebox"],
 						"count": 1 
 					}
 				]
@@ -44,7 +44,7 @@
 				"items":
 				[
 					{
-						"item": "minecraft:bell",
+						"items": ["minecraft:bell"],
 						"count": 1 
 					}
 				]
@@ -56,7 +56,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_13"}]
+				[{"items": ["minecraft:music_disc_13"]}]
 			}
 		}
 		,"cat":
@@ -65,7 +65,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_cat"}]
+				[{"items": ["minecraft:music_disc_cat"]}]
 			}
 		}
 		,"blocks":
@@ -74,7 +74,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_blocks"}]
+				[{"items": ["minecraft:music_disc_blocks"]}]
 			}
 		}
 		,"chirp":
@@ -83,7 +83,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_chirp"}]
+				[{"items": ["minecraft:music_disc_chirp"]}]
 			}
 		}
 		,"far":
@@ -92,7 +92,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_far"}]
+				[{"items": ["minecraft:music_disc_far"]}]
 			}
 		}
 		,"mall":
@@ -101,7 +101,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_mall"}]
+				[{"items": ["minecraft:music_disc_mall"]}]
 			}
 		}
 		,"mellohi":
@@ -110,7 +110,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_mellohi"}]
+				[{"items": ["minecraft:music_disc_mellohi"]}]
 			}
 		}
 		,"stal":
@@ -119,7 +119,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_stal"}]
+				[{"items": ["minecraft:music_disc_stal"]}]
 			}
 		}
 		,"strad":
@@ -128,7 +128,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_strad"}]
+				[{"items": ["minecraft:music_disc_strad"]}]
 			}
 		}
 		,"ward":
@@ -137,7 +137,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_ward"}]
+				[{"items": ["minecraft:music_disc_ward"]}]
 			}
 		}
 		,"11":
@@ -146,7 +146,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_11"}]
+				[{"items": ["minecraft:music_disc_11"]}]
 			}
 		}
 		,"wait":
@@ -155,7 +155,7 @@
 			"conditions":
 			{
 				"items":
-				[{"item": "minecraft:music_disc_wait"}]
+				[{"items": ["minecraft:music_disc_wait"]}]
 			}
 		}
 	},

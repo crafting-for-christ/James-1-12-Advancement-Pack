@@ -16,7 +16,7 @@
 				"items": 
 				[
 					{
-						"item": "minecraft:firework_rocket",
+						"items": ["minecraft:firework_rocket"],
 						"count": 64
 					}
 				]

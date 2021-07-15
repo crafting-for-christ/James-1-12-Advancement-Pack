@@ -13,7 +13,7 @@
 			"trigger": "minecraft:location",
 			"conditions":
 			{
-				"feature": "Village",
+				"feature": "village",
 				"biome": "plains"
 			}
 		}
@@ -22,7 +22,7 @@
 			"trigger": "minecraft:location",
 			"conditions":
 			{
-				"feature": "Village",
+				"feature": "village",
 				"biome": "desert"
 			}
 		}
@@ -31,7 +31,7 @@
 			"trigger": "minecraft:location",
 			"conditions":
 			{
-				"feature": "Village",
+				"feature": "village",
 				"biome": "savanna"
 			}
 		}
@@ -40,7 +40,7 @@
 			"trigger": "minecraft:location",
 			"conditions":
 			{
-				"feature": "Village",
+				"feature": "village",
 				"biome": "taiga"
 			}
 		}
@@ -49,7 +49,7 @@
 			"trigger": "minecraft:location",
 			"conditions":
 			{
-				"feature": "Village",
+				"feature": "village",
 				"biome": "snowy_tundra"
 			}
 		}

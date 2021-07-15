@@ -8,7 +8,7 @@
 	"parent": "lae:bible/locusts",
 	"criteria":
 	{
-		"button":
+		"enderman":
 		{
 			"trigger": "minecraft:player_killed_entity",
 			"conditions":
@@ -24,7 +24,30 @@
 				}
 			}
 		}
+		,"golem":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{"type": "iron_golem"},
+				"killing_blow":
+				{
+					"source_entity":
+					{
+						"nbt": "{SelectedItem:{id:\"minecraft:stone_button\"}}"
+					}
+				}
+			}
+		}
 	},
+	"requirements":
+	[
+		[
+			"enderman",
+			"golem"
+		]
+	],
 	"rewards":
 	{
 		"function": "lae:bible/advance"

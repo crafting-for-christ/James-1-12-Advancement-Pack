@@ -38,11 +38,6 @@
 			"trigger": "minecraft:placed_block",
 			"conditions": {"block": "minecraft:lantern"}
 		},
-		"magma_block":
-		{
-			"trigger": "minecraft:placed_block",
-			"conditions": {"block": "minecraft:magma_block"}
-		},
 		"redstone_lamp":
 		{
 			"trigger": "minecraft:placed_block",
@@ -87,7 +82,19 @@
 		{
 			"trigger": "minecraft:placed_block",
 			"conditions": {"block": "minecraft:torch"}
-		}
+		},
+		"glow_berries": 
+		{
+            		"trigger": "minecraft:placed_block",
+            		"conditions": 
+			{"item": {"items": ["glow_berries"]}}
+        	},
+		"candles": 
+		{
+            		"trigger": "minecraft:placed_block",
+            		"conditions": 
+			{"item": {"items": ["candle","white_candle","orange_candle","magenta_candle","light_blue_candle","yellow_candle","lime_candle","pink_candle","gray_candle","light_gray_candle","cyan_candle","purple_candle","blue_candle","brown_candle","green_candle","red_candle","black_candle"]}}
+        	}
 	},
 	"requirements":
 	[
@@ -98,7 +105,6 @@
 			"glowstone",
 			"jack_o_lantern",
 			"lantern",
-			"magma_block",
 			"redstone_lamp",
 			"redstone_torch",
 			"sea_lantern",
@@ -107,7 +113,9 @@
 			"soul_campfire",
 			"soul_lantern",
 			"soul_torch",
-			"torch"
+			"torch",
+			"glow_berries",
+			"candles"
 		]
 	],
 	"rewards":

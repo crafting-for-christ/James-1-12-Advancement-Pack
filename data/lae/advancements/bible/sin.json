@@ -14,7 +14,7 @@
 			"trigger": "minecraft:consume_item",
 			"conditions":
 			{
-				"item": {"item": "minecraft:apple"}
+				"item": {"items": ["minecraft:apple"]}
 			}
 		}
 	},
